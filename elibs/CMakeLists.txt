@@ -34,6 +34,7 @@ externalproject_add(ext_eigen
 externalproject_add(ext_mve
     PREFIX          mve
     GIT_REPOSITORY  https://github.com/nmoehrle/mve.git
+    GIT_TAG         3990c84
     UPDATE_COMMAND  ""
     SOURCE_DIR      ${CMAKE_SOURCE_DIR}/elibs/mve
     CONFIGURE_COMMAND ""
